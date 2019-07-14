@@ -58,7 +58,7 @@ body {
     font-size: 5vw;
     font-weight: 900;
     opacity: .2;
-    transition: opacity .4s;
+    transition: all .4s;
 }
 
 .slide .up {
@@ -70,7 +70,7 @@ body {
 }
 
 .down:hover, .up:hover {
-    transition: opacity 1s;
+    transition: all 1s;
     opacity: .8;
     transform: scale(1.5);
 }
@@ -90,11 +90,11 @@ section:last-child .down {
     font-weight: 900;
     letter-spacing: -4px;
     opacity: .2;
-    transition: opacity .4s;
+    transition: all .4s;
 }
 
 .up-up:hover {
-    transition: opacity 1s;
+    transition: all 1s;
     opacity: .8;
     transform: scale(1.3);
 }
